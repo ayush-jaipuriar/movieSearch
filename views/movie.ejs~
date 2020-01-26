@@ -1,0 +1,19 @@
+<h1>Result</h1>
+
+
+
+
+  <% data.Search.forEach(function(movie) { %>
+     <div>
+
+        <h4>
+            <%= movie.name%>
+        </h4>
+        <img src="<%= campgrounds.image%>" alt="" srcset="">
+
+    </div>
+
+    <% }); %>
+<a href="/">Search Again? Click Here</a>
+
+

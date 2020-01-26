@@ -1,0 +1,9 @@
+<h1>Movie Search Engine</h1>
+
+<form action="/movie" type="GET" >
+<input type = "text" name="search" placeholder="Enter the name of the movie">
+<button>Search </button>
+</form>
+
+
+
